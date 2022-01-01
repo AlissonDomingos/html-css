@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -49,6 +50,12 @@
         color: white;
         text-align: center;
        }
+
+       thead > tr > th {
+           position: sticky;
+           top: -1px;
+           background-color: rgba(0, 0, 0, 0.623);
+        }
 
        
     </style>
@@ -164,4 +171,4 @@
         </tfoot>
     </table>
 </body>
-</html>
+</html> 
